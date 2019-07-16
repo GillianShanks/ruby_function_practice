@@ -25,3 +25,38 @@ end
 def join_string(string1, string2)
  return "#{string1}#{string2}"
 end
+
+def add_string_as_number(string_num1, string_num2)
+  return string_num1.to_i + string_num2.to_i
+end
+
+def number_to_full_month_name(month_number)
+  case month_number
+  when 1
+    "January"
+  when 2
+    "February"
+  when 3
+    "March"
+  when 4
+    "April"
+  when 5
+    "May"
+  when 6
+    "June"
+  when 7
+    "July"
+  when 8
+    "August"
+  when 9
+    "September"
+  when 10
+    "October"
+  when 11
+    "November"
+  when 12
+    "December"
+  else
+    "There isn't that number of months!"
+  end
+end
