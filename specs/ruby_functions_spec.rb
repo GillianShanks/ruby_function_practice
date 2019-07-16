@@ -62,11 +62,11 @@ class FunctionsTest < MiniTest::Test
     assert_equal( "September", result )
   end
 
-  # def test_number_to_short_month_name__month_1()
-  #   first_month_string = number_to_short_month_name( 1 )
-  #   assert_equal( "Jan", first_month_string )
-  # end
-  #
+  def test_number_to_short_month_name__month_1()
+    first_month_string = number_to_short_month_name( 1 )
+    assert_equal( "Jan", first_month_string )
+  end
+
   # def test_number_to_short_month_name__month_4()
   #   fourth_month_string = number_to_short_month_name( 4 )
   #   assert_equal( "Apr", fourth_month_string )
