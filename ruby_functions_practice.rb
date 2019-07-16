@@ -91,3 +91,7 @@ def number_to_short_month_name(month_number)
     "There isn't that number of months!"
   end
 end
+
+def volume_of_cube(length, width, height)
+  return length * width * height
+end
