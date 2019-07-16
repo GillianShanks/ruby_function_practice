@@ -96,6 +96,11 @@ def volume_of_cube(length, width, height)
   return length * width * height
 end
 
+#has some help from Stephen
 def volume_of_sphere(radius)
   ((4.00/3.00) * 3.14 * (radius.to_f**3)).round(2)
+end
+
+def fahrenheit_to_celsius(fahrenheit_temperature)
+  ((fahrenheit_temperature.to_f - 32.0) * (5.0/9.0)).round(2)
 end
