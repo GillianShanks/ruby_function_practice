@@ -92,8 +92,8 @@ def number_to_short_month_name(month_number)
   end
 end
 
-def volume_of_cube(length, width, height)
-  return length * width * height
+def volume_of_cube(length)
+  return length**3
 end
 
 #has some help from Stephen
